@@ -1,11 +1,11 @@
 
 # Spring JPA Snowflake
 
-Before running the project please update the application.properties under resources with the snowflake connection details
+Before running the project please update the application.properties under src/main/resources with your snowflake connection details
 
-spring.datasource.url=jdbc:snowflake://CONNECTION_URL/?db=DATABASENAME&warehouse=WAREHOUSENAME&CLIENT_SESSION_KEEP_ALIVE=true&schema=SCHEMANAME
-spring.datasource.username=
-spring.datasource.password=
+spring.datasource.url=jdbc:snowflake://yourcompany.snowflakecomputing.com/?db=DB_NAME&warehouse=WAREHOUSE_NAME&CLIENT_SESSION_KEEP_ALIVE=true&schema=SCHEMA_NAME
+spring.datasource.username=USER_NAME
+spring.datasource.password=USER_PWD
 
 # In Snowflake create below to test 
 CREATE TABLE STUDENT (STUDENT_ID NUMBER(4,0), STUDENT_NAME VARCHAR(25), CLASS_ID VARCHAR(10));
@@ -13,6 +13,10 @@ INSERT INTO STUDENT VALUES (1, 'RYAN', '6');
 INSERT INTO STUDENT VALUES (2, 'MATT', '6');
 INSERT INTO STUDENT VALUES (3, 'BILL', '6');
 INSERT INTO STUDENT VALUES (4, 'STEVE', '6');
+
+## Software required to build and run
+Java: JDK 1.8+
+Maven: Apache Maven 3.6.3+
 
 
 ## Running Locally
@@ -26,3 +30,6 @@ mvn spring-boot:run
 
 ## Testing Local
 http://localhost:8080/student?studentId={studentId}
+
+## Snowflake references
+https://docs.snowflake.net/manuals/user-guide-intro.html
