@@ -47,7 +47,11 @@ mvn spring-boot:run
 ```
 
 ## Testing Local
+```
 http://localhost:8080/student?studentId={studentId}
+
+Swagger UI: http://localhost:8080
+```
 
 ## Snowflake references
 https://docs.snowflake.net/manuals/user-guide-intro.html
