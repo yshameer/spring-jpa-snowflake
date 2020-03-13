@@ -1,4 +1,4 @@
-package com.shameer.springjpa.snowflake.service.configuration;
+package com.github.yshameer.springjpa.snowflake.service.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -27,7 +27,7 @@ public class SwaggerDocumentationConfig {
     public Docket customImplementation() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.shameer.springjpa.snowflake.service.api"))
+                .apis(RequestHandlerSelectors.basePackage("com.github.yshameer.springjpa.snowflake.service.api"))
                 .build()
                 .apiInfo(apiInfo());
     }

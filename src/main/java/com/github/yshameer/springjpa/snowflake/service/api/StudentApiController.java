@@ -1,7 +1,7 @@
-package com.shameer.springjpa.snowflake.service.api;
+package com.github.yshameer.springjpa.snowflake.service.api;
 
-import com.shameer.springjpa.snowflake.service.entity.Student;
-import com.shameer.springjpa.snowflake.service.repository.StudentRepository;
+import com.github.yshameer.springjpa.snowflake.service.repository.StudentRepository;
+import com.github.yshameer.springjpa.snowflake.service.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

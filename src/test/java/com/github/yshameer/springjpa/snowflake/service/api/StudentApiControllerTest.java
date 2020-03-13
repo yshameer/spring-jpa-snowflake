@@ -1,7 +1,7 @@
-package com.shameer.springjpa.snowflake.service.api;
+package com.github.yshameer.springjpa.snowflake.service.api;
 
-import com.shameer.springjpa.snowflake.service.entity.Student;
-import com.shameer.springjpa.snowflake.service.repository.StudentRepository;
+import com.github.yshameer.springjpa.snowflake.service.entity.Student;
+import com.github.yshameer.springjpa.snowflake.service.repository.StudentRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,7 +41,7 @@ public class StudentApiControllerTest {
                 .param("studentId", "1")
                 .contentType(APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType(APPLICATION_JSON_UTF8));
+                .andExpect(content().contentType(APPLICATION_JSON));
     }
 
 }

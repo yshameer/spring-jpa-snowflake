@@ -1,4 +1,4 @@
-package com.shameer.springjpa.snowflake.service;
+package com.github.yshameer.springjpa.snowflake.service;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -8,7 +8,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-@ComponentScan(basePackages = "com.shameer.springjpa")
+@ComponentScan(basePackages = "com.github.yshameer.springjpa")
 public class SpringJpaSnowflakeServiceApplication implements CommandLineRunner {
 
     public static void main(String[] args) {

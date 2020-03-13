@@ -1,6 +1,6 @@
-package com.shameer.springjpa.snowflake.service.repository;
+package com.github.yshameer.springjpa.snowflake.service.repository;
 
-import com.shameer.springjpa.snowflake.service.entity.Student;
+import com.github.yshameer.springjpa.snowflake.service.entity.Student;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 

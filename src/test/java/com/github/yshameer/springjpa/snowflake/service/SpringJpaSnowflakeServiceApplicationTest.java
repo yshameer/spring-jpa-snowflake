@@ -1,9 +1,9 @@
-package com.shameer.springjpa.snowflake.service;
+package com.github.yshameer.springjpa.snowflake.service;
 
 import com.github.springtestdbunit.DbUnitTestExecutionListener;
 import com.github.springtestdbunit.annotation.DatabaseSetup;
 import com.github.springtestdbunit.annotation.ExpectedDatabase;
-import com.shameer.springjpa.snowflake.service.entity.Student;
+import com.github.yshameer.springjpa.snowflake.service.entity.Student;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

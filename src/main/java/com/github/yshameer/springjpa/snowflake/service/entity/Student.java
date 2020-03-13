@@ -1,4 +1,4 @@
-package com.shameer.springjpa.snowflake.service.entity;
+package com.github.yshameer.springjpa.snowflake.service.entity;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,6 +1,6 @@
-package com.shameer.springjpa.snowflake.service.api;
+package com.github.yshameer.springjpa.snowflake.service.api;
 
-import com.shameer.springjpa.snowflake.service.entity.Student;
+import com.github.yshameer.springjpa.snowflake.service.entity.Student;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

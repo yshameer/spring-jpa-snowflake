@@ -23,6 +23,19 @@ Java: JDK 1.8+
 Maven: Apache Maven 3.6.3+
 ```
 
+## Package Information
+If you are updating the package, please change the references in
+```
+com.github.yshameer.springjpa.snowflake.service.SpringJpaSnowflakeServiceApplication
+   Line 11:  @ComponentScan(basePackages = "com.github.yshameer.springjpa")
+
+com.github.yshameer.springjpa.snowflake.service.configuration.SwaggerDocumentationConfig
+   Line 30: RequestHandlerSelectors.basePackage("com.github.yshameer.springjpa.snowflake.service.api")
+   
+application.properties
+   spring.jpa.properties.hibernate.dialect=com.github.yshameer.springjpa.snowflake.service.dialect.SnowflakeDialect
+```
+
 
 ## Running Locally
 

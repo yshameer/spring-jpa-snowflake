@@ -1,4 +1,4 @@
-package com.shameer.springjpa.snowflake.service.configuration;
+package com.github.yshameer.springjpa.snowflake.service.configuration;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.shameer.springjpa.snowflake.service.dialect;
+package com.github.yshameer.springjpa.snowflake.service.dialect;
 
 import org.hibernate.dialect.Dialect;
 
