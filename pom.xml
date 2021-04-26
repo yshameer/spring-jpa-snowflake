@@ -21,7 +21,7 @@
         <hikaricp.version>2.6.0</hikaricp.version>
         <springfox.version>2.5.0</springfox.version>
         <commonslang.version>3.5</commonslang.version>
-        <commonsio.version>2.5</commonsio.version>
+        <commonsio.version>2.7</commonsio.version>
         <snowflake.jdbc.version>3.6.8</snowflake.jdbc.version>
         <springtestdbunit.version>1.2.1</springtestdbunit.version>
         <dbunit.version>2.5.0</dbunit.version>
