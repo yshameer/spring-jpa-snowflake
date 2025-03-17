@@ -22,7 +22,7 @@
         <springfox.version>2.10.0</springfox.version>
         <commonslang.version>3.5</commonslang.version>
         <commonsio.version>2.14.0</commonsio.version>
-        <snowflake.jdbc.version>3.13.29</snowflake.jdbc.version>
+        <snowflake.jdbc.version>3.23.1</snowflake.jdbc.version>
         <springtestdbunit.version>1.2.1</springtestdbunit.version>
         <dbunit.version>2.5.0</dbunit.version>
         <lombok.version>1.18.0</lombok.version>
