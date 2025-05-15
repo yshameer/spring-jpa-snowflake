@@ -22,11 +22,23 @@ INSERT INTO STUDENT VALUES (3, 'BILL', '6');
 INSERT INTO STUDENT VALUES (4, 'STEVE', '6');
 ```
 
-## Software required to build and run
-```
-Java: JDK 1.8+
-Maven: Apache Maven 3.6.3+
-```
+## Software Requirements
+
+### Development Environment
+- **Java**: JDK 21 (LTS)
+- **Maven**: Apache Maven 3.9.x
+- **IDE**: IntelliJ IDEA or VS Code with Java extensions
+
+### Compatibility
+- Minimum Java Version: JDK 17
+- Recommended Java Version: JDK 21
+- Spring Boot: 3.x
+- Snowflake JDBC Driver: Latest version
+
+### Prerequisites
+- Snowflake account
+- Maven installed
+- Java Development Kit (JDK) installed
 
 ## Package Information
 If you are updating the package, please change the references in
