@@ -1,12 +1,17 @@
 
 # Spring JPA Snowflake
 
-Before running the project please update the application.properties under src/main/resources with your snowflake connection details
+Before running the project, create a `.env` file in the project root directory with your Snowflake connection details:
 ```
-spring.datasource.url=jdbc:snowflake://yourcompany.snowflakecomputing.com/?db=DB_NAME&warehouse=WAREHOUSE_NAME&CLIENT_SESSION_KEEP_ALIVE=true&schema=SCHEMA_NAME
-spring.datasource.username=USER_NAME
-spring.datasource.password=USER_PWD
+SNOWFLAKE_ACCOUNT=your_account_name
+SNOWFLAKE_USERNAME=your_username
+SNOWFLAKE_PASSWORD=your_password
+SNOWFLAKE_WAREHOUSE=your_warehouse
+SNOWFLAKE_SCHEMA=your_schema
+SNOWFLAKE_DATABASE=your_database
 ```
+
+**Note:** Do not commit the `.env` file to version control. It is already added to `.gitignore`.
 
 # In Snowflake create below to test 
 ```

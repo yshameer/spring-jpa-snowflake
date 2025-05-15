@@ -36,3 +36,4 @@ atlassian-ide-plugin.xml
 generated
 markdown.mustache
 LOG_HOME_IS_UNDEFINED
+.env
